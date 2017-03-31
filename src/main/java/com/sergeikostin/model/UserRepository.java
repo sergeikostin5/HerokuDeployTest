@@ -4,6 +4,7 @@ package com.sergeikostin.model;
 // CRUD refers Create, Read, Update, Delete
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 public interface UserRepository extends CrudRepository<User, Long> {
 
