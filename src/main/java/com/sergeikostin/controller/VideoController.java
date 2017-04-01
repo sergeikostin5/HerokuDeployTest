@@ -34,7 +34,6 @@ public class VideoController {
 
     @GetMapping(path="/all")
     public @ResponseBody Iterable<Video> getAllVideos() {
-        // This returns a JSON or XML with the users
         return videoRepository.findAll();
     }
 }
